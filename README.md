@@ -19,6 +19,6 @@ Just download **cowsay.alfredworkflow** from this repository and click on it. As
 
 **Troubleshooting**
 
-If it does not display the output, it would mean the workflow did not find cowsay executable at **/usr/local/bin/cowsay**. in that case, you have two options:
+If it does not display the cowsay output, it means the workflow did not find cowsay executable at **/usr/local/bin/cowsay**. In that case, you have two options:
 1. Make sure to install cowsay at **/usr/local/bin/cowsay**
 2. If you are comfortable editing alfred workflow, then edit the workflow and goto `\bin\bash` step and edit the script to point to the installation location of cowsay executable
